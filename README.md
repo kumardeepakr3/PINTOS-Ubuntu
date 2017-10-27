@@ -40,7 +40,7 @@ source ~/.bashrc
       - Line 362: Replace `loader.bin` with `/home/.../pintos/src/threads/build/loader.bin`
 11. ### Export utils directory path to PATH variable
       Open ~/.bashrc and add this to the last line:
-      ```export PATH=$/home/.../pintos/src/utils:$PATH```
+      ```export PATH=/home/.../pintos/src/utils:$PATH```
 12. ### Reload terminal with the new environment variables
       ```source ~/.bashrc```
 13. ### Run pintos
